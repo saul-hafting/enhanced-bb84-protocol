@@ -30,7 +30,7 @@ python -m venv quantum_env
 
 # Activate virtual environment
 # On Windows:
-quantum_env\Scripts\activate
+source quantum_env/Scripts/activate
 # On macOS/Linux:
 source quantum_env/bin/activate
 ```
