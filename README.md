@@ -146,3 +146,12 @@ The implementation provides two key security metrics:
 ## 🙏 Acknowledgments
 
 - Original implementation from [codeocean.com](https://codeocean.com/capsule/8352553/tree/v1)
+
+## License
+
+This project is a modified version of a BB84 implementation originally
+from codeocean.com, licensed under the GNU General Public License v3.0,
+and is therefore distributed under the **GPLv3**. See the LICENSE file.
+
+Modifications by Saul Hafting: quantum random number generation (QRNG)
+and related changes.
