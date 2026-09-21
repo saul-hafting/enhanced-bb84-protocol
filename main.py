@@ -1,3 +1,18 @@
+# enhanced-bb84-protocol. BB84 QKD with quantum random number generation
+# Copyright (C) 2024 Saul Hafting
+#
+# Based on the original BB84 implementation from codeocean.com,
+# licensed under the GNU General Public License v3.0.
+# Modified 2024 by Saul Hafting: added quantum random number
+# generation (QRNG) and related changes.
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version. This program is distributed WITHOUT
+# ANY WARRANTY; see the GNU General Public License for more details.
+# You should have received a copy of the GNU General Public License along
+# with this program. If not, see <https://www.gnu.org/licenses/>.
 from qiskit import QuantumCircuit, transpile
 from qiskit_ibm_runtime import QiskitRuntimeService, SamplerV2 as Sampler
 import numpy as np
